@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
  
-body {
-    /* display: inline; */
-}
  .flex-parent {
     color: #AFB1B3;
     font-size: 30px;
@@ -534,15 +531,20 @@ background-color: #F5F6F7;
 .flex-parent12 {
     background-color: #F5F6F7;
     padding: 30px 480px;
-    /* border: 2px solid red; */
+
     text-align: center;
-    /* display: flex; */
+    
     gap: 30px;
 }
 
-.flex {
-    font-size: 20px ;
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 20px;
+.flex-child12 {
+    display: block;
+    width: 50%;
+    /* display: flex; */
+     display: inline-flex;
+}
+
+.flex-child13 {
+    width: 100%;
+    display: block;
 }
