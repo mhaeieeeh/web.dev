@@ -25,15 +25,13 @@
     padding: 30px 20px;
     color: #C4DBF9;
 }
- 
-
- 
+   
 .flex-child1 {
 background-color: #E8F0FE;
 color: #303F9F;
 font-size: 14px;
 font-weight: 400;
-    padding: 30px 20px;
+    padding: 30px 80px;
 
 }
 
@@ -511,8 +509,9 @@ background-color: #F5F6F7;
 
 .flex-child10 a {
     color: #202124;
-    padding: 10px 0;
+    padding: 5px 30px;
     font-size: 20px; 
+    width: fit-content;
     text-decoration: none;
 }
 
@@ -530,21 +529,86 @@ background-color: #F5F6F7;
 
 .flex-parent12 {
     background-color: #F5F6F7;
-    padding: 30px 480px;
+    padding: 30px 520px;
+}
 
+.last {
+    padding: 0 30px;
+}
+
+.last h2 {
+    font-size: 48px;
+    font-weight: 700;
     text-align: center;
-    
+    padding-bottom: 20px;
+}
+
+.last p {
+      font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.form {
+    display: flex;
     gap: 30px;
+    margin-bottom: 10px;
 }
 
-.flex-child12 {
-    display: block;
-    width: 50%;
-    /* display: flex; */
-     display: inline-flex;
+
+.lastname {
+    display: flex;
+   flex-direction: column;
+   width: 300px;
 }
 
-.flex-child13 {
-    width: 100%;
-    display: block;
+input {
+    height: 30px;
+    font-size: 16px;
 }
+
+.email label {
+    display: block;
+    
+}
+
+
+.email input {
+    width: 630px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    padding-right: 240px;
+}
+
+.checkbox1 {
+    align-items: first baseline;
+}
+
+.checkbox1 a {
+    text-decoration: none;
+    color: #6BB6F7;
+}
+
+.last-last {
+    background-color: #FFFFFF;
+    padding: 20px ;
+}
+
+.lastdev {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+ 
