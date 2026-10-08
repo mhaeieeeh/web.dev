@@ -38,28 +38,30 @@ font-weight: 400;
 .flex-parent2 {
     display: flex;
     margin: 100px 312.5px;
-    /* display: inline-block; */
+     gap: 50px;
+     justify-content: center;
     
 }
 
 .flex-child2{
     width: 50%;
+   
     
 }
-.flex-child2:nth-child(1) {
+.flex-child2 h1 {
     font-size: 64px;
     font-weight: 700;
     color: #202124;
+margin-bottom: 30px;
     
 }
 
-.flex-parent2:last-child {
-    width: 50%;
-}
+
 
 .p1 {
     font-size: 20px;
     font-weight: 400;
+    line-height: 30px;
 }
 
 
@@ -67,7 +69,7 @@ font-weight: 400;
       display: flex;
     margin: 100px 312.5px;
     gap: 22px;
-    /* border-radiu; */
+    
 }
 
 .flex-child3 {
@@ -103,6 +105,10 @@ font-weight: 400;
          border-radius: 30px;
 }
 
+.flex-child3 p {
+    line-height: 25px;
+
+}
 
 .flex-child3 a:last-child:hover {
     border: none;
@@ -125,7 +131,8 @@ font-weight: 400;
 .dd3 {
     display: flex;
     gap: 50px;
-
+    justify-content: center;
+     padding-bottom: 30px;
 }
 
 h2 {
@@ -141,19 +148,22 @@ h2 {
     padding: 20px 0;
     display: inline-block;
     width: 65%;
+    line-height: 25px;
+    
 }
 
 .dd1 {
   color:#1A73E8 ;
     border: 2PX solid   #2E6AC2;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 35px;
     display: inline-block;
      background-color: #fff;
      text-decoration: none;
-         margin: 40px 78px;
+         margin: 0px 78px;
          border-radius: 30px;
          width: 30%;
+         width: fit-content;
          
 }
 
@@ -189,7 +199,7 @@ color: #202124;
     text-decoration: underline; 
 }
 
-.flex-child4  :last-child {
+.flex-child4 :nth-child(4) {
      color:#1A73E8 ;
     border: 2PX solid   #2E6AC2;
     text-align: center;
@@ -199,6 +209,12 @@ color: #202124;
      text-decoration: none;
          margin: 40px 78px;
          border-radius: 30px;
+}
+
+.flex-child4 p {
+    line-height: 25px;
+    text-align: center;
+
 }
 
 .flex-child4 :last-child:hover {
@@ -219,17 +235,20 @@ color: #202124;
    color:#1A73E8 ;
     border: 2PX solid   #2E6AC2;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 35px;
     display: inline-block;
      background-color: #fff;
      text-decoration: none;
-         margin: 40px 78px;
+         margin: 0px 78px;
          border-radius: 30px;
          width: 30%; 
+         width: fit-content;
 }
  .df3 {
 display: flex;
     gap: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .df4 {
@@ -237,6 +256,7 @@ display: flex;
     font-weight: 400;
     padding: 20px 0;
     display: inline-block;
+    line-height: 25px;
     width: 65%;   
 }
 
@@ -259,6 +279,11 @@ display: flex;
     text-decoration: none;
     display: inline-block;
     margin: 40px 0;
+}
+
+.flex-child5 p {
+    line-height: 25px;
+
 }
 
 .flex-child5 :nth-child(2):hover {
@@ -300,19 +325,25 @@ display: flex;
 h3 {
     font-size: 32px;
     font-weight: 500;
-    padding: 30px 30px;
+    padding: 30px 0px;
 }
 
 .dg1 {
     color:#1A73E8 ;
     border: 2PX solid   #2E6AC2;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 35px;
     display: block;
      background-color: #fff;
      text-decoration: none;
-         margin: 40px 78px;
+         margin: 40px 248px;
          border-radius: 30px;
+         width: fit-content;
+}
+
+.flex-child6 p {
+    line-height: 25px;
+
 }
 
 .dg1:hover {
@@ -347,17 +378,20 @@ h3 {
     font-size: 20px;
     font-weight: 400;
 padding: 20px 0;
+    line-height: 25px;
+
 }
 .dh1{
     color:#1A73E8 ;
     border: 2PX solid  #2E6AC2;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 55px;
     display: block;
      background-color: #fff;
      text-decoration: none;
          margin: px 10px;
          border-radius: 30px;
+         width: fit-content;
 }
 
 .flex-child7 a {
@@ -386,12 +420,13 @@ background-color: #F5F6F7;
 color:#1A73E8 ;
     border: 2px solid  #2E6AC2;
     text-align: center;
-     padding: 15px 15px;
+     padding: 15px 35px;
     display: block;
      background-color: #fff;
      text-decoration: none;
-         margin: px 10px;
+         margin: 0px 10px;
          border-radius: 30px;
+         width: fit-content;
          
 }
 
@@ -415,6 +450,7 @@ color:#1A73E8 ;
 .flex-child8 p {
     font-size: 16px; 
     font-weight: 400;
+    line-height: 25px;
     padding: 10px 0;
 }
 
@@ -448,6 +484,7 @@ color:#1A73E8 ;
 .flex-child9 p {
     font-size: 16px; 
     font-weight: 400;
+    line-height: 25px;
     padding: 10px 0;
 }
 
@@ -471,6 +508,16 @@ color:#1A73E8 ;
 
 .flex-child10 :nth-child(2) {
     margin: 30px 0;
+}
+
+.flex-child10 p {
+    line-height: 25px;
+    
+}
+
+.flex-parent10 a {
+    margin: 0;
+    padding: 0;
 }
 
 .flex-parent11 {
@@ -501,6 +548,8 @@ background-color: #F5F6F7;
     font-size: 16px; 
     font-weight: 400;
     padding: 10px 0;
+    line-height: 25px;
+
 }
 
 .flex-child11 a:hover {
@@ -584,7 +633,9 @@ input {
 }
 
 .checkbox1 {
-    align-items: first baseline;
+   justify-content: center;
+    line-height: 25px;
+
 }
 
 .checkbox1 a {
@@ -595,11 +646,44 @@ input {
 .last-last {
     background-color: #FFFFFF;
     padding: 20px ;
+    display: flex;
+    gap: 150px;
 }
 
-.lastdev {
+.lastweb {
     font-size: 14px;
     font-weight: 400;
+    width: 27%;
+    line-height: 25px;
+
+}
+
+.lasst-thing {
+    display: flex;
+    gap: 300px;
+
+}
+
+.lasst-thing a {
+    display: block;
+    text-decoration: none;
+    color: #202124;
+    padding-bottom: 20px;
+}
+
+.lasst-thing a:hover {
+    text-decoration: underline;
+}
+
+.last-line {
+    border: 1px solid #DADCE0;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+
+.lastp {
+    padding: 20px 30px;
 }
 
 
