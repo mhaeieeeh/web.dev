@@ -1,0 +1,258 @@
+@media screen and ( max-width: 490px ) {
+    
+.flex-parent2 {
+    display: flex;
+    /* margin: 100px 312.5px; */
+     /* gap: 50px; */
+     /* justify-content: center; */
+    flex-direction: column;
+    width: 100%;
+}
+/* body {
+    overflow: hidden;
+} */
+
+.flex-child2 h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #202124;
+/* margin-bottom: 30px; */
+    
+}
+
+.flex-child2 img {
+    display: block;
+}
+
+.p1 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.flex-parent3 {
+      display: flex;
+      flex-direction: column;
+    /* margin: 100px 312.5px; */
+    /* gap: 22px; */
+    width: 100%;
+    
+}
+
+.flex-child3 {
+    width: 100%;
+    background-color: #F5F6F7;
+    border-radius: 15px;
+
+    /* padding: 30px 30px; */
+    /* gap: 50px; */
+}
+
+.flex-child3 :nth-child(2) {
+    color: #202124;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 0;
+}
+
+.flex-child3 a:last-child {
+    color:#1A73E8 ;
+    border: 2PX solid   #2E6AC2;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 15px;
+    display: block;
+     background-color: #fff;
+     text-decoration: none;
+         /* margin: 40px 8px; */
+         width: 70px;
+         border-radius: 30px;
+}
+.dd3 {
+    display: flex;
+    /* gap: 50px; */
+    /* justify-content: center; */
+     /* padding-bottom: 30px; */
+     flex-direction: column;
+     width: 100%;
+}
+
+h2 {
+    color: #202124;
+    font-size: 38px;
+    font-weight: 700;
+    /* width: 70%; */
+}
+
+.dd2{
+    font-size: 15px;
+    font-weight: 400;
+    /* padding: 20px 0; */
+    display: inline-block;
+    /* width: 65%; */
+    line-height: 25px;
+    width: 100%;
+    
+}
+
+.dd4 {
+    background-color: #F5F6F7;
+    padding: 50px 10px; 
+}
+
+.flex-parent4 {
+    display: flex;
+    /* gap: 22px; */
+    flex-direction: column;
+}
+
+.flex-child4 {
+    background-color: #fff;
+    padding: 30px 90px;
+    border-radius: 15px;
+    width: fit-content;
+
+}
+
+ .df3 {
+display: flex;
+    /* gap: 50px; */
+    /* justify-content: center; */
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.df1 {
+      padding: 50px 10px;
+}
+
+.flex-parent5 {
+       display: flex;
+    /* gap: 22px; */
+    flex-direction: column;
+}
+
+.flex-child5 {
+    padding: 30px 30px;
+    border-radius: 15px;
+    width: fit-content;
+    background-color: #F5F6F7;
+}
+
+.flex-parent6 {
+    background-color: #F5F6F7;
+    display: flex;
+    padding: 10px ;
+    /* gap: 30px; */
+    flex-direction: column;
+}
+
+.dg1 {
+    color:#1A73E8 ;
+    border: 2PX solid   #2E6AC2;
+    text-align: center;
+    padding: 15px 35px;
+    display: block;
+     background-color: #fff;
+     text-decoration: none;
+         margin: 40px ;
+         border-radius: 30px;
+         width: fit-content;
+}
+
+.flex-parent7 {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    flex-direction: column;
+    /* gap: 30px; */
+
+}
+
+.flex-child7 {
+    /* padding: 30px 30px;
+    border-radius: 15px; */
+    /* width: 33%; */
+    width: 100%;
+    /* gap: 10px; */
+}
+
+.flex-child8 {
+    width: 100%;
+ /* width: 33%; */
+    /* gap: 10px; */
+}
+
+
+.flex-parent8 {
+background-color: #F5F6F7;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* gap: 30px; */
+}
+
+.flex-parent9 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* gap: 30px; */
+}
+
+.flex-child9 {
+    width: 100%;
+    /* width: 33%; */
+    /* gap: 10px; */
+}
+
+.flex-parent10 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* gap: 30px; */
+    
+}
+
+.flex-child10 {
+    width: 100%;
+    /* gap: 10px; */
+}
+
+.flex-parent11 {
+    display: flex;
+background-color: #F5F6F7;
+    padding: 30px;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+
+.flex-child11 {
+    width: 100%;
+    /* gap: 10px; */
+}
+
+.flex-parent12 {
+    background-color: #F5F6F7;
+    /* padding: 30px 520px; */
+    width: fit-content;
+}
+
+.last {
+    /* padding: 0 30px; */
+}
+
+.last h2 {
+    font-size: 38px;
+    font-weight: 700;
+    /* text-align: center; */
+    padding-bottom: 20px;
+}
+
+.last p {
+      font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+}

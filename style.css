@@ -76,9 +76,7 @@ margin-bottom: 30px;
     width: 33%;
     background-color: #F5F6F7;
     border-radius: 15px;
-
     padding: 30px 30px;
-    /* gap: 50px; */
 }
 
 .flex-child3 :nth-child(2) {
