@@ -1,23 +1,39 @@
 @media screen and ( max-width: 490px ) {
     
+.flex-parent1 p {
+    background-color:#1A73E8 ;
+    color: #C4DBF9;
+}
+   
+.flex-child1 {
+background-color: #E8F0FE;
+color: #303F9F;
+font-size: 14px;
+font-weight: 400;
+    padding: 30px 20px;
+
+}
+
 .flex-parent2 {
     display: flex;
-    /* margin: 100px 312.5px; */
-     /* gap: 50px; */
-     /* justify-content: center; */
     flex-direction: column;
     width: 100%;
+    padding: 0;
+    margin: 0 10px;
 }
-/* body {
-    overflow: hidden;
-} */
+body {
+    width: 100%;
+}
+
+.flex-child2 {
+    width: fit-content;
+    padding: 0;
+}
 
 .flex-child2 h1 {
     font-size: 44px;
     font-weight: 700;
-    color: #202124;
-/* margin-bottom: 30px; */
-    
+    color: #202124;    
 }
 
 .flex-child2 img {
@@ -33,9 +49,8 @@
 .flex-parent3 {
       display: flex;
       flex-direction: column;
-    /* margin: 100px 312.5px; */
-    /* gap: 22px; */
     width: 100%;
+    margin: 0;
     
 }
 
@@ -43,9 +58,6 @@
     width: 100%;
     background-color: #F5F6F7;
     border-radius: 15px;
-
-    /* padding: 30px 30px; */
-    /* gap: 50px; */
 }
 
 .flex-child3 :nth-child(2) {
@@ -54,27 +66,23 @@
     font-weight: 400;
     text-decoration: none;
     display: inline-block;
-    margin: 40px 0;
 }
 
 .flex-child3 a:last-child {
     color:#1A73E8 ;
     border: 2PX solid   #2E6AC2;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 15px;
     display: block;
      background-color: #fff;
      text-decoration: none;
-         /* margin: 40px 8px; */
-         width: 70px;
+         margin: 40px 78px;
+         width: fit-content;
          border-radius: 30px;
 }
 .dd3 {
     display: flex;
-    /* gap: 50px; */
-    /* justify-content: center; */
-     /* padding-bottom: 30px; */
      flex-direction: column;
      width: 100%;
 }
@@ -83,18 +91,15 @@ h2 {
     color: #202124;
     font-size: 38px;
     font-weight: 700;
-    /* width: 70%; */
 }
 
 .dd2{
     font-size: 15px;
     font-weight: 400;
-    /* padding: 20px 0; */
+    padding: 20px 0;
     display: inline-block;
-    /* width: 65%; */
     line-height: 25px;
     width: 100%;
-    
 }
 
 .dd4 {
@@ -104,13 +109,12 @@ h2 {
 
 .flex-parent4 {
     display: flex;
-    /* gap: 22px; */
     flex-direction: column;
 }
 
 .flex-child4 {
     background-color: #fff;
-    padding: 30px 90px;
+    padding: 30px 30px;
     border-radius: 15px;
     width: fit-content;
 
@@ -118,19 +122,70 @@ h2 {
 
  .df3 {
 display: flex;
-    /* gap: 50px; */
-    /* justify-content: center; */
-    margin-bottom: 30px;
+    padding: 0 20px 30px 20px;
     flex-direction: column;
+}
+
+.df4 {
+   font-size: 16px;
+    font-weight: 400;
+    padding: 20px ;
+    display: inline-block;
+    line-height: 25px;
+    width: 100%;   
+}
+
+.df2 {
+   color:#1A73E8 ;
+    border: 2PX solid   #2E6AC2;
+    text-align: center;
+    padding: 15px 35px;
+    display: inline-block;
+     background-color: #fff;
+     text-decoration: none;
+         margin: 0px 48px;
+         border-radius: 30px;
+         width: 100%; 
+         width: fit-content;
 }
 
 .df1 {
       padding: 50px 10px;
 }
 
+.dj1 :last-child {
+color:#1A73E8 ;
+    border: 2px solid  #2E6AC2;
+    text-align: center;
+     padding: 15px 35px;
+    display: block;
+     background-color: #fff;
+     text-decoration: none;
+         margin: 0px 5px;
+         border-radius: 30px;
+         width: fit-content;
+         
+}
+.flex-child4 :nth-child(4) {
+     color:#1A73E8 ;
+    border: 2PX solid   #2E6AC2;
+    text-align: center;
+    padding: 15px 15px;
+    display: block;
+     background-color: #fff;
+     text-decoration: none;
+         margin: 40px 70px;
+         width: fit-content;
+         border-radius: 30px;
+}
+
+.flex-child4 p {
+    line-height: 25px;
+    margin: 0;
+}
+
 .flex-parent5 {
        display: flex;
-    /* gap: 22px; */
     flex-direction: column;
 }
 
@@ -144,8 +199,7 @@ display: flex;
 .flex-parent6 {
     background-color: #F5F6F7;
     display: flex;
-    padding: 10px ;
-    /* gap: 30px; */
+    padding: 10px  30px;
     flex-direction: column;
 }
 
@@ -167,22 +221,14 @@ display: flex;
     padding: 30px;
     width: 100%;
     flex-direction: column;
-    /* gap: 30px; */
-
 }
 
 .flex-child7 {
-    /* padding: 30px 30px;
-    border-radius: 15px; */
-    /* width: 33%; */
     width: 100%;
-    /* gap: 10px; */
 }
 
 .flex-child8 {
     width: 100%;
- /* width: 33%; */
-    /* gap: 10px; */
 }
 
 
@@ -191,33 +237,26 @@ background-color: #F5F6F7;
     display: flex;
     flex-direction: column;
     padding: 30px;
-    /* gap: 30px; */
 }
 
 .flex-parent9 {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    /* gap: 30px; */
 }
 
 .flex-child9 {
     width: 100%;
-    /* width: 33%; */
-    /* gap: 10px; */
 }
 
 .flex-parent10 {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    /* gap: 30px; */
-    
 }
 
 .flex-child10 {
     width: 100%;
-    /* gap: 10px; */
 }
 
 .flex-parent11 {
@@ -225,34 +264,108 @@ background-color: #F5F6F7;
 background-color: #F5F6F7;
     padding: 30px;
     flex-direction: column;
-    /* gap: 30px; */
 }
 
 .flex-child11 {
     width: 100%;
-    /* gap: 10px; */
 }
 
 .flex-parent12 {
     background-color: #F5F6F7;
-    /* padding: 30px 520px; */
     width: fit-content;
+    margin: auto;
+    padding: 0 20px;
 }
 
 .last {
-    /* padding: 0 30px; */
+   
 }
 
 .last h2 {
     font-size: 38px;
     font-weight: 700;
-    /* text-align: center; */
-    padding-bottom: 20px;
+    width: fit-content;
 }
 
-.last p {
+.last:nth-child(2) {
       font-size: 15px;
     font-weight: 400;
-    padding-bottom: 50px;
+    width: fit-content;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    flex-direction: column;
+}
+
+.email input {
+    width: 300px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox1 {
+    line-height: 25px;
+}
+
+.fari p {
+     padding-top: 30px;
+     display: block;
+     margin: 0;
+     padding: 0;
+    width: fit-content;
+     line-height: 25px;
+}
+
+.checkbox1 p {
+    width: fit-content;
+    width: fit-content;
+   padding: 0;
+    margin: 0;
+}
+
+.last-last {
+    background-color: #FFFFFF;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lasst-thing {
+    display: flex;
+    flex-direction: column;
+}
+
+.last h2 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.lastweb {
+    font-size: 14px;
+    font-weight: 400;
+    width: fit-content;
+    line-height: 25px;
+
+}
+
 }

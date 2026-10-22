@@ -624,6 +624,12 @@ input {
     width: 630px;
 }
 
+.fari p {
+    padding-right: 230px;
+     padding-top: 30px; 
+     line-height: 25px;
+}
+
 .checkbox {
     display: flex;
     flex-direction: column;
